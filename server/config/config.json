@@ -1,0 +1,34 @@
+{
+  "development": {
+    "username": "postgres@pcs-esquel",
+    "password": "Password1",
+    "database": "emi_dev",
+    "host": "pcs-esquel.postgres.database.azure.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "col":{
+      "username": "postgres@pcs-esquel",
+      "password": "Password1",
+      "database": "etl",
+      "host": "pcs-esquel.postgres.database.azure.com",
+      "port": 5432,
+      "dialect": "postgres"
+    }
+  },
+  "production": {
+    "username": "postgres@pcs-esquel",
+    "password": "Password1",
+    "database": "emi_uat",
+    "host": "pcs-esquel.postgres.database.azure.com",
+    "port": 5432,
+    "dialect": "postgres",
+    "col":{
+      "username": "postgres@pcs-esquel",
+      "password": "Password1",
+      "database": "etl",
+      "host": "pcs-esquel.postgres.database.azure.com",
+      "port": 5432,
+      "dialect": "postgres"
+    }
+  }
+}
