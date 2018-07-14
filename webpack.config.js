@@ -233,7 +233,7 @@ module.exports = {
       "filename": "scripts.bundle.js",
       "scripts": [
         // thrid plugin js
-        // (projectRoot + "/src/third/dist/cpexcel.js"),
+        (projectRoot + "/src/third/echart/echarts.min.js")
         // (projectRoot + "/src/third/dist/jszip.js"),
         // (projectRoot + "/src/third/dist/ods.js"),
         // (projectRoot + "/src/third/xlsx.js")
